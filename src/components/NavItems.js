@@ -7,6 +7,7 @@ import NavItem from "./NavItem";
 const NavItems = () => {
     const [activeIndex, setActiveIndex] = useState(null);
     const isAnyOpen = activeIndex !== null;
+    // map the array
     return (
         <div className="flex gap-4 h-full">
             {
